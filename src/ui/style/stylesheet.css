@@ -1,0 +1,25 @@
+node {
+	fill-color: rgb(124,185,232);
+    size: 25px, 25px;
+    text-color: black;
+    text-style: bold;
+    text-size: 14;
+    text-alignment: above;
+
+}
+
+edge {
+    text-color: rgb(9, 8, 75);
+    text-size: 18;
+    text-style: bold;
+    fill-color:gray;
+    size:2px;
+}
+
+node:clicked {
+    fill-color: rgb(0,48,143);
+}
+
+edge:clicked {
+    text-color: red;
+}
